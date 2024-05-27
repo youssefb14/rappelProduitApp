@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        app:key="max_results"
+        app:title="Max Results"
+        app:defaultValue="10"
+        app:summary="Limit the number of results returned by the search"
+        android:dialogMessage="Please enter a number" />
+
+    <ListPreference
+        app:key="product_category"
+        app:title="Product Category"
+        app:entries="@array/product_categories"
+        app:entryValues="@array/product_categories_values"
+        app:defaultValue="all"
+        app:summary="Choose a product category for the search" />
+
+    <DatePickerPreference
+        app:key="start_date"
+        app:title="Start Date"
+        app:summary="Choose the start date for the search" />
+
+    <SwitchPreferenceCompat
+        app:key="compensation"
+        app:title="Compensation"
+        app:summary="Choose if you want to include compensated products in the search"
+        app:defaultValue="false" />
+
+    
+
+</PreferenceScreen>

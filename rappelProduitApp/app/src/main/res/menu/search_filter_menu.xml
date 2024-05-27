@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/filter_product_name"
+        android:title="Filter by Product Name" />
+
+    <item
+        android:id="@+id/filter_recall_reason"
+        android:title="Filter by recall reason" />
+
+    <item
+        android:id="@+id/filter_recall_nature"
+        android:title="Filter by recall nature" />
+
+</menu>
